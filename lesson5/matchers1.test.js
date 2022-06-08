@@ -6,6 +6,7 @@ test('测试 6与6 相匹配', () => {
     expect(6).toBe(6);
 })
 
+
 test('测试对象内容相等', () => {
     // toEqual 匹配器 内容相等
     const a = {one: 1, two: 2};
