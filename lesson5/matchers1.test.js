@@ -7,7 +7,7 @@ test('测试 6与6 相匹配', () => {
 })
 
 
-test('测试对象内容相等', () => {
+test('测试对象内容相等1', () => {
     // toEqual 匹配器 内容相等
     const a = {one: 1, two: 2};
     expect(a).toEqual({one: 1, two: 2})
